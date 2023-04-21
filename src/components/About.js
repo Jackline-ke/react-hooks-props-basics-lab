@@ -11,7 +11,7 @@ function About(props) {
       <p>{props.bio}</p>
       <img src="https://i.imgur.com/mV8PQxj.gif" alt="I made this" />
       {/* add your <Links /> component here */}
-      <Links github={user.links.github} linkedin={user.links.linked}/> 
+      <Links github={user.links.github} linkedin={user.links.linkedin}/> 
        
     </div>
   );
